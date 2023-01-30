@@ -41,3 +41,11 @@ There are two different STM32 SoC chips used on the S1 Pro.  You can determine w
 - Insert the SD card into your printer and power cycle it
 - It shouldn't take more than 15-20 seconds for the process to complete
 - Remove the SD card (delete the firmware file/s from it if you intend to use it with your printer)
+
+## Restore Factory Settings
+You must do a factory reset of your machine.  Issue the following commands to initialize your new firmware and clear out your prior 4x4 bed mesh:
+
+- M502 - Factory Restore
+- M500 - Save EEPROM
+- M501 - Load EEPROM
+
