@@ -36,6 +36,7 @@ There are two different STM32 SoC chips used on the S1 Pro.  You can determine w
 
 <img width="425" alt="Screenshot 2023-01-30 at 2 53 40 AM" src="https://user-images.githubusercontent.com/1299716/215419703-a4404966-8fa1-478c-ab97-1250666bcc03.png">
 
+### Installation Plan
 - Download the zip file from here that matches your board
 - Unzip it and copy either the included .bin file or `STM32F4_UPDATE` directory to the root of an SD card
 - Insert the SD card into your printer and power cycle it
@@ -45,7 +46,7 @@ There are two different STM32 SoC chips used on the S1 Pro.  You can determine w
 ## Restore Factory Settings
 You must do a factory reset of your machine.  Issue the following commands to initialize your new firmware and clear out your prior 4x4 bed mesh:
 
-- M502 - Factory Restore
-- M500 - Save EEPROM
-- M501 - Load EEPROM
+- M502 ; Factory Restore
+- M500 ; Save EEPROM
+- M501 ; Load EEPROM
 
