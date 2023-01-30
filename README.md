@@ -49,3 +49,6 @@ You must do a factory reset of your machine.  Issue the following commands to in
 - M500 ; Save EEPROM
 - M501 ; Load EEPROM
 
+## Uninstall / Recovery
+Reapply the official Creality firmware linked above.
+
