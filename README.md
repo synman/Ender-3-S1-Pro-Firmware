@@ -52,3 +52,6 @@ You must do a factory reset of your machine.  Issue the following commands to in
 ## Uninstall / Recovery
 Reapply the official Creality firmware linked above.
 
+
+## Source Code
+https://github.com/synman/Ender-3S1/tree/firmware_troubleshooting
