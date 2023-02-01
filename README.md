@@ -1,5 +1,7 @@
 # Creality Ender-3 S1 Pro Firmware
 
+<img width=400px src="https://user-images.githubusercontent.com/1299716/215980417-d70e84ea-0a16-4c25-bdba-8985cca5c6c9.png"/>
+
 ## USE AT YOUR OWN RISK ##
 
 Marlin 2.0.8 was built from the official <a href="https://github.com/CrealityOfficial/Ender-3S1/tree/s1_pro">Creality GitHub Repo</a> with fixes provided by <a href="https://github.com/Pethical">@Pethical</a>. 
@@ -58,3 +60,5 @@ Reapply the official Creality firmware linked above.
 
 ## Source Code
 https://github.com/synman/Ender-3S1/tree/firmware_troubleshooting
+https://github.com/synman/Marlin/tree/ender-3-s1-all
+
