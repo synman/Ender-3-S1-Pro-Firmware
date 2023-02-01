@@ -2,10 +2,13 @@
 
 ## USE AT YOUR OWN RISK ##
 
-This firmware was built from the official <a href="https://github.com/CrealityOfficial/Ender-3S1/tree/s1_pro">Creality GitHub Repo</a> with fixes provided by <a href="https://github.com/Pethical">@Pethical</a>. 
+Marlin 2.0.8 was built from the official <a href="https://github.com/CrealityOfficial/Ender-3S1/tree/s1_pro">Creality GitHub Repo</a> with fixes provided by <a href="https://github.com/Pethical">@Pethical</a>. 
+
+Marlin 2.1.2 was built from the official Marlin repository with all of the touchscreen handling Creality code ported/integrated into it.
 
 Additionally, the following `Capabilities` and configuration items have been enabled / changed:
 
+- Z Axis Microstepping set to .01 increments
 - Extruder minimum temperature lowered to 170C
 - Probing Margin reduced to 5mm
 - Fast / Slow / Slow probing strategy
