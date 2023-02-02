@@ -29,6 +29,8 @@ Additionally, the following `Capabilities` and configuration items have been ena
 - Host Prompt Support
 - M486 Cancel Objects
 
+* NOTE:  Laser functionality is untested and not supported at this time.  It may work with the 2.0.8 firmware but will very likely fail with 2.1.x
+
 There should be a noticable improvement in bed tramming accuracy, but likely minimal.  OctoPrint will light up with Action Command notifications and manage functions such as filament changes.  
 
 ## How to Install
