@@ -8,7 +8,7 @@
 
 `Marlin 2.1.2` was built from the official Marlin repository with all of the touchscreen handling Creality code ported/integrated into it.
 
-`Marlin 2.1.x` bugfix is based on a periodic snapshot from the official Marlin repository's 2.1.x bugfix branch.  This should be considered bleeding edge and is bit more risky than the other two distributions, but has the added benefit of gaining access to new Marlin features before they are generally available.
+`Marlin 2.1.x bugfix` is based on a periodic snapshot from the official Marlin repository's 2.1.x bugfix branch.  This should be considered bleeding edge and is bit more risky than the other two distributions, but has the added benefit of gaining access to new Marlin features before they are generally available.
 
 Additionally, the following `Capabilities` and configuration items have been enabled / changed:
 
