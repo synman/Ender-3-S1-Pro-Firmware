@@ -4,13 +4,15 @@
 
 ## USE AT YOUR OWN RISK ##
 
-Marlin 2.0.8 was built from the official <a href="https://github.com/CrealityOfficial/Ender-3S1/tree/s1_pro">Creality GitHub Repo</a> with fixes provided by <a href="https://github.com/Pethical">@Pethical</a>. 
+`Marlin 2.0.8` was built from the official <a href="https://github.com/CrealityOfficial/Ender-3S1/tree/s1_pro">Creality GitHub Repo</a> with fixes provided by <a href="https://github.com/Pethical">@Pethical</a>. 
 
-Marlin 2.1.2 was built from the official Marlin repository with all of the touchscreen handling Creality code ported/integrated into it.
+`Marlin 2.1.2` was built from the official Marlin repository with all of the touchscreen handling Creality code ported/integrated into it.
+
+`Marlin 2.1.x` bugfix is based on a periodic snapshot from the official Marlin repository's 2.1.x bugfix branch.  This should be considered bleeding edge and is bit more risky than the other two distributions, but has the added benefit of gaining access to new Marlin features before they are generally available.
 
 Additionally, the following `Capabilities` and configuration items have been enabled / changed:
 
-- Z Axis Microstepping set to .01 increments
+- Z Axis Microstepping set to .01 increments (still buggy)
 - Extruder minimum temperature lowered to 170C
 - Probing Margin reduced to 5mm
 - Fast / Slow / Slow probing strategy
@@ -60,5 +62,5 @@ Reapply the official Creality firmware linked above.
 
 ## Source Code
 https://github.com/synman/Ender-3S1/tree/firmware_troubleshooting
-https://github.com/synman/Marlin/tree/ender-3-s1-all
-
+https://github.com/synman/Marlin/tree/2.1.2-ender-3-s1
+https://github.com/synman/Marlin/tree/bugfix-2.1.x
