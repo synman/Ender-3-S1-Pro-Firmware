@@ -12,7 +12,7 @@
 
 Additionally, the following `Capabilities` and configuration items have been enabled / changed:
 
-- Z Axis Microstepping set to .01 increments (still buggy)
+- Z Axis Microstepping set to .01 increments
 - Extruder minimum temperature lowered to 170C
 - Probing Margin reduced to 5mm
 - Fast / Slow / Slow probing strategy
@@ -24,7 +24,7 @@ Additionally, the following `Capabilities` and configuration items have been ena
 - Include ADC values when reporting temperature
 - Emergency Parser
 - Auto Report Position
-- Report Fan Changes (not confirmed)
+- Report Fan Changes for fans that support it
 - Host Action Commands
 - Host Prompt Support
 - M486 Cancel Objects
