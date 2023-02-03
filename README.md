@@ -31,7 +31,7 @@ Additionally, the following `Capabilities` and configuration items have been ena
 - Include ADC values when reporting temperature
 - Emergency Parser
 - Auto Report Position
-- Report Fan Changes (not confirmed)
+- Report Fan Changes for fans that support it
 - Host Action Commands
 - Host Prompt Support
 - M486 Cancel Objects
