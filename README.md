@@ -48,6 +48,8 @@ Make sure you are running `v2.0.8.24` of the TouchPanel Display and the Machine 
 
 <img width="600" alt="Screenshot 2023-02-04 at 12 04 52 PM" src="https://user-images.githubusercontent.com/1299716/216780180-3eb58264-e5ec-40b1-bfbc-97005d06daa1.png">
 
+If for some reason you are unable to locate `Ender-3 S1_Pro_HWv24S1_301_SWV2.0.8.24F4_FDM_LASER` on the Creality site, you can find a mirror of it here: https://github.com/synman/Ender-3-S1-Pro-Firmware/tree/main/baseline_firmware
+
 ### S1 Plus
 Make sure you are running `v2.0.8.25` of the TouchPanel Display and the Machine before proceeding any further.  You can find the binaries and instructions here:  https://www.creality.com/pages/download-ender-3-s1-plus
 
