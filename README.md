@@ -43,7 +43,11 @@ Additionally, the following `Capabilities` and configuration items have been ena
 There should be a noticable improvement in bed tramming accuracy, but likely minimal.  OctoPrint will light up with Action Command notifications and manage functions such as filament changes.  
 
 ## How to Install
-Make sure you are running the latest version of the TouchPanel Display and the Machine before proceeding any further.  You can find the binaries and instructions here:  https://www.creality.com/pages/download-ender-3-s1-pro
+Make sure you are running `v2.0.8.24` of the TouchPanel Display and the Machine before proceeding any further.  You can find the binaries and instructions here:  https://www.creality.com/pages/download-ender-3-s1-pro
+
+<img width="600" alt="Screenshot 2023-02-04 at 12 04 52 PM" src="https://user-images.githubusercontent.com/1299716/216780180-3eb58264-e5ec-40b1-bfbc-97005d06daa1.png">
+
+If for some reason you are unable to locate `Ender-3 S1_Pro_HWv24S1_301_SWV2.0.8.24F4_FDM_LASER.zip` on the Creality site, you can find a mirror of it here: https://github.com/synman/Ender-3-S1-Pro-Firmware/tree/main/baseline_firmware
 
 ### Identify your board
 There are two different STM32 SoC chips used on the S1 series machines.  You can determine which one you have by looking at the Firmware Version within the display's About section.
