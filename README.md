@@ -13,7 +13,7 @@
 Additionally, the following `Capabilities` and configuration items have been enabled / changed:
 
 - Ender-3 S1 Pro and Plus supported
-- Bed Size set to 235mm x 235mm
+- Bed Size set to 235mm x 225mm
 - Probe X/Y offset updated to be more accurate
 - M117 Set LCD Message supported
 - Z Axis Microstepping set to .01 increments
