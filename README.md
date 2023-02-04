@@ -18,9 +18,11 @@ Additionally, the following `Capabilities` and configuration items have been ena
 - M117 Set LCD Message supported
 - Z Axis Microstepping set to .01 increments
 - M851 and M290 changes update Z-Offset on LCD
+- Z-Offset UI updates notifies host
 - M48 Probe Repeatability Test
 - Unified Bed Leveling or Bilinear (ABL) Leveling
 - Extruder minimum temperature lowered to 170C
+- Heatbreak fan extruder minimum temperature set to 80C
 - Probing Margin reduced to 5mm (ABL)
 - Fast / Slow / Slow probing strategy
 - Turn fans off when probing (ABL)
