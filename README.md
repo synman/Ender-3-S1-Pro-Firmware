@@ -85,7 +85,7 @@ Reapply the official Creality firmware linked above.
 
 ## Source Code
 #### 2.0.8 Stock Creality
-https://github.com/synman/Ender-3S1/tree/firmware_troubleshooting
+https://github.com/synman/Marlin/tree/2.0.8-ender-3-s1
 #### 2.1.2 (Stable) Marlin + Creality UI
 https://github.com/synman/Marlin/tree/2.1.2-ender-3-s1
 #### 2.1.x (Bugfix) Marlin + Creality UI
