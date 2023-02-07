@@ -19,6 +19,8 @@ Additionally, the following `Capabilities` and configuration items have been ena
 - Z Axis Microstepping set to .01 increments
 - M851 and M290 changes update Z-Offset on LCD
 - Z-Offset UI updates notifies host
+- Linear Advance is available (bugfix-2.1.x only)
+- Input Shaping is availabe (bugfix-2.1.x only)
 - M48 Probe Repeatability Test
 - Unified Bed Leveling (UBL) or Bilinear Leveling (ABL)
 - Extruder minimum temperature lowered to 170C
@@ -29,7 +31,8 @@ Additionally, the following `Capabilities` and configuration items have been ena
 - Preheat before probing (70C/70C) (ABL)
 - G26 Mesh Validation
 - 5 x 5 Bilinear Mesh (25 points) (ABL)
-- 10 x 10 Unified Mesh (100 points) (UBL)
+- 5 x 5 Unified Mesh (25 points) (_ubl25)
+- 10 x 10 Unified Mesh (100 points) (_ubl100)
 - G12 Clean the Nozzle
 - Include ADC values when reporting temperature
 - Emergency Parser
