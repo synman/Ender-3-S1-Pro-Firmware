@@ -36,6 +36,7 @@ Additionally, the following `Capabilities` and configuration items have been ena
 - G12 Clean the Nozzle
 - Include ADC values when reporting temperature
 - Emergency Parser
+- Advanced Pause (M600 and M125)
 - Auto Report Position
 - Report Fan Changes for fans that support it
 - Host Action Commands
