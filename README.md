@@ -13,7 +13,7 @@
 Additionally, the following `Capabilities` and configuration items have been enabled / changed:
 
 - Ender-3 S1 Pro and Plus supported
-- Bed Size set to 235mm x 225mm
+- Bed Size set to 235mm x 225mm (S1 Pro)
 - Probe X/Y offset updated to be more accurate
 - M117 Set LCD Message supported
 - Z Axis Microstepping set to .01 increments
@@ -21,6 +21,7 @@ Additionally, the following `Capabilities` and configuration items have been ena
 - Z-Offset UI updates notifies host
 - Linear Advance is available (bugfix-2.1.x only)
 - Input Shaping is availabe (bugfix-2.1.x only)
+- Backlash Compensation and M425 supported (bugfix-2.1.x only)
 - M48 Probe Repeatability Test
 - Unified Bed Leveling (UBL) or Bilinear Leveling (ABL)
 - Extruder minimum temperature lowered to 170C
