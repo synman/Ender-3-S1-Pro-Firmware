@@ -21,7 +21,8 @@ Additionally, the following `Capabilities` and configuration items have been ena
 - Z-Offset UI updates notifies host
 - Linear Advance is available (bugfix-2.1.x only)
 - Input Shaping is availabe (bugfix-2.1.x only)
-- Backlash Compensation and M425 supported (bugfix-2.1.x only)
+- Backlash Compensation and M425 supported (bugfix-2.1.x & 2.1.2 only)
+- M73 Progress (bugfix-2.1.x & 2.1.2 only)
 - M48 Probe Repeatability Test
 - Unified Bed Leveling (UBL) or Bilinear Leveling (ABL)
 - Extruder minimum temperature lowered to 170C
