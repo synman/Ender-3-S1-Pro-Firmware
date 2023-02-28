@@ -16,7 +16,8 @@ Additionally, the following `Capabilities` and configuration items have been ena
 - Bed Size set to 235mm x 225mm (S1 Pro)
 - Probe X/Y offset updated to be more accurate
 - M117 Set LCD Message supported
-- Z Axis Microstepping set to .01 increments
+- Z Axis babystepping set to .01mm increments 
+- Live Z Axis babystepping @ .01mm increments (sd print @ .05mm)
 - M851 and M290 changes update Z-Offset on LCD
 - Z-Offset UI updates notifies host
 - Linear Advance is available (bugfix-2.1.x only)
