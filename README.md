@@ -10,12 +10,15 @@
 
 `bugfix-2.1.x` is based on a periodic snapshot from the official Marlin repository's 2.1.x bugfix branch.  This should be considered bleeding edge and is bit more risky than the other two distributions, but has the added benefit of gaining access to new Marlin features before they are generally available.
 
+Theoretically the base model S1 is supported as well assuming it has CR Touch probe and touchscreen installed.  The S1 Pro binaries should be able to be flashed to it.
+
 Additionally, the following `Capabilities` and configuration items have been enabled / changed:
 
 - Ender-3 S1 Pro and Plus supported
+- Laser Module Enabled (unable to test)
 - Bed Size set to 235mm x 225mm (S1 Pro)
+- Unified Bed Leveling (UBL) or Bilinear Leveling (ABL)
 - Probe X/Y offset updated to be more accurate
-- M117 Set LCD Message supported
 - Z Axis babystepping set to .01mm increments 
 - Live Z Axis babystepping @ .01mm increments (sd print @ .05mm)
 - M851 and M290 changes update Z-Offset on LCD
@@ -25,7 +28,6 @@ Additionally, the following `Capabilities` and configuration items have been ena
 - Backlash Compensation and M425 supported (bugfix-2.1.x & 2.1.2 only)
 - M73 Progress (bugfix-2.1.x & 2.1.2 only)
 - M48 Probe Repeatability Test
-- Unified Bed Leveling (UBL) or Bilinear Leveling (ABL)
 - Extruder minimum temperature lowered to 170C
 - Heatbreak fan extruder minimum temperature set to 80C
 - Probing Margin reduced to 5mm (ABL)
@@ -40,6 +42,7 @@ Additionally, the following `Capabilities` and configuration items have been ena
 - Include ADC values when reporting temperature
 - Emergency Parser
 - Advanced Pause (M600 and M125)
+- M117 Set LCD Message supported
 - Auto Report Position
 - Report Fan Changes for fans that support it
 - Host Action Commands
